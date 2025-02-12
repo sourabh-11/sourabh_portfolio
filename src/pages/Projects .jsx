@@ -3,11 +3,13 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import weather from "../assets/weather.png"; // Importing the image
 import portfoliimg from "../assets/portfolio.png"; // Importing the image
+import task from "../assets/todo.png"; // Importing the image
+import collegeimg from "../assets/college.png"; // Importing the image
 
 const projects = [
-  { id: 1, title: "Portfolio web ", description: "Welcome to my portfolio! I am a passionate full-stack web developer specializing in modern, scalable, and user-friendly applications", link: "/projects/inventory", img: portfoliimg },
-  { id: 2, title: "E-Learning Platform", description: "React & Express-based learning system with progress tracking.", link: "/projects/elearning", img: "/assets/images/elearning.jpg" },
-  { id: 3, title: "Task Management System", description: "A Kanban-style task manager with drag-and-drop support.", link: "/projects/taskmanager", img: weather }, // Fixed this line
+  { id: 1, title: "Portfolio web ", description: "Welcome to my portfolio! I am a passionate full-stack web developer specializing in modern, scalable, and user-friendly applications", link: "https://github.com/sourabh-11/sourabh_portfolio", img: portfoliimg },
+  { id: 2, title: "E-Learning Platform", description: "React & Express-based learning system with progress tracking.", link: "https://github.com/sourabh-11/edusity_college", img: collegeimg },
+  { id: 3, title: "Task Management System", description: "A Kanban-style task manager with drag-and-drop support.", link: "https://github.com/sourabh-11", img: task }, // Fixed this line
   { id: 4, title: "Weather App", description: "A React-based weather app with real-time updates.", link: "https://github.com/sourabh-11/weather", img: weather },
 ];
 
